@@ -5,6 +5,22 @@
     src: local('Avenir Next LT Pro Regular'), url('../font/AvenirNextLTPro-Regular.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Ultra Light Condensed'), url('../font/AvenirNextLTPro-UltLtCn.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Ultra Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Ultra Light'), url('../font/AvenirNextLTPro-UltLt.woff') format('woff');
+}
+        
+
+
 body{
     display: flex;
     justify-content: center;
@@ -149,4 +165,56 @@ fieldset .btn-default{
     background: #ECEEF1;
     padding: 15px;
     color: #8d9096;
+}
+
+.primary-footer{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Avenir Next LT Pro Regular";
+    padding: 20px;
+    
+}
+
+.primary-footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.primary-footer li{
+    padding: 5px;
+    padding-bottom: 0px;
+    
+}
+.primary-footer a{
+    color: grey;
+}
+.primary-footer div{
+    color: grey;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-container div{
+    display: flex;
+    flex-direction: column;
+}
+.nav-container button{
+    height: 32px;
+    background-color: #0077C5;
+    color: white;
+    border: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.nav-container p{
+    font-family: "Avenir Next LT Pro Regular";
+    font-size: 0.8em;
+    margin: 0px;
 }

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Regular'), url('../font/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+
+}
+section{
+    width: 320px;
+}
+
+header{
+    text-align: center;
+}
+
+header>h1{
+    font-family: "Avenir Next LT Pro Regular";
+    color: grey;
+    
+}
+.ul-header{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family:'Avenir Next LT Pro Ultra Light Condensed';
+    font-size: 1.2rem;
+    padding: 0px;
+}
+.li-header{
+    padding: 5px;
+}
+.formbody{
+    background-color: white;
+    padding: 15px;
+}

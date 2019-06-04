@@ -12,7 +12,8 @@ body{
 
 }
 section{
-    width: 320px;
+    width: 380px;
+    font-family:"Avenir Next LT Pro Regular";
 }
 
 header{
@@ -38,4 +39,27 @@ header>h1{
 .formbody{
     background-color: white;
     padding: 15px;
+    
+}
+
+.formbody h1{
+    font-size: 24px;
+    color: #4C4C4C;
+    text-align: center;
+}
+
+.formheader p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.formbody fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
 }

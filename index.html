@@ -15,7 +15,7 @@
 
         <header>
             <h1>INTUIT</h1>
-            <div>
+            <div class="ul-container">
                 <ul class="ul-header">
                     <li class="li-header"><i style="color: rgb(167, 210, 241)" class="fab fa-envira"></i></li>
                     <li class="li-header">mint</li>
@@ -39,19 +39,29 @@
             <form action="#">
                 
                 <fieldset>
-                    <label>
-                        Email address
+                    <div class="input-container">
+                        <label>
+                            Email address
+                        </label>
                         <input type="email" name="email">
-                    </label>
-                    <label>
-                        Phone (recommended)
-                        <input type="text" name="phone">
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            Phone (recommended)
+                        </label>
+                        <div>
+                            <input type="text" name="phone">
+                        </div>
                         <span>Standard call, messaging or data rates may apply.</span>
-                    </label>
-                    <label>
-                        <input type="password" name="password">
-                        <i class="fas fa-lock-open"></i>
-                    </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                        </label>
+                        <div>
+                            <input type="password" name="password">
+                            <i class="fas fa-lock-open"></i>
+                        </div>
+                    </div>
                 </fieldset>
     
                 <fieldset>

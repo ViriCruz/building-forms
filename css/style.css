@@ -8,12 +8,15 @@
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: rgb(233, 233, 233);
 
 }
 section{
     width: 380px;
     font-family:"Avenir Next LT Pro Regular";
+    border: 1px solid #c7c7c7;
+    margin: auto;
 }
 
 header{
@@ -89,11 +92,61 @@ fieldset{
     padding-bottom: 12px;
 }
 .input-container input{
-    width: 100%;
+    width: 99%;
     border-radius: 5px;
     border-width: 1px;
     border-color: rgb(223, 223, 223);
     border-top-color: rgb(223, 223, 223);
     margin: 0;
     font-size: 1.5em;
+}
+
+.input-container span{
+    font-size: 10px;
+    color: #444;
+    padding: 5px 0;
+}
+
+.input-container div{
+    position: relative;
+}
+
+.input-container i{
+    position: absolute;
+    top:37px;
+    right: 10px;
+    color: lightgrey;
+}
+
+fieldset .btn-default{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background: #0077C5;
+    color: white;
+    border: 1px solid #4c4c4c;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.formbody form{
+    padding-bottom: 30px;
+}
+
+.formfooter, .form-footer-captcha{
+    font-size: 12px;
+    text-align: center;
+}
+
+.form-footer-privacy{
+    padding-bottom: 30px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #757575;
+}
+
+.form-footer-captcha{
+    background: #ECEEF1;
+    padding: 15px;
+    color: #8d9096;
 }

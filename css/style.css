@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Regular'), url('../font/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Ultra Light Condensed'), url('../font/AvenirNextLTPro-UltLtCn.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Ultra Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Ultra Light'), url('../font/AvenirNextLTPro-UltLt.woff') format('woff');
+}
+        
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+
+}
+section{
+    width: 380px;
+    font-family:"Avenir Next LT Pro Regular";
+    border: 1px solid #c7c7c7;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+header>h1{
+    font-family: "Avenir Next LT Pro Regular";
+    color: grey;
+    
+}
+.ul-container{
+    text-align: center;
+}
+.ul-header{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    list-style: none;
+    font-family:'Avenir Next LT Pro Ultra Light Condensed';
+    font-size: 1.2rem;
+    padding: 0px;
+}
+.li-header{
+    padding: 5px;
+}
+.formbody{
+    background-color: white;
+    padding: 25px;
+    
+}
+
+.formbody h1{
+    font-size: 24px;
+    color: #4C4C4C;
+    text-align: center;
+}
+
+.formheader p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
+
+.formbody fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.input-container{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    
+}
+.input-container label{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+.input-container input{
+    width: 99%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(223, 223, 223);
+    border-top-color: rgb(223, 223, 223);
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.input-container span{
+    font-size: 10px;
+    color: #444;
+    padding: 5px 0;
+}
+
+.input-container div{
+    position: relative;
+}
+
+.input-container i{
+    position: absolute;
+    top:37px;
+    right: 10px;
+    color: lightgrey;
+}
+
+fieldset .btn-default{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background: #0077C5;
+    color: white;
+    border: 1px solid #4c4c4c;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.formbody form{
+    padding-bottom: 30px;
+}
+
+.formfooter, .form-footer-captcha{
+    font-size: 12px;
+    text-align: center;
+}
+
+.form-footer-privacy{
+    padding-bottom: 30px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #757575;
+}
+
+.form-footer-captcha{
+    background: #ECEEF1;
+    padding: 15px;
+    color: #8d9096;
+}
+
+.primary-footer{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Avenir Next LT Pro Regular";
+    padding: 20px;
+    
+}
+
+.primary-footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.primary-footer li{
+    padding: 5px;
+    padding-bottom: 0px;
+    
+}
+.primary-footer a{
+    color: grey;
+}
+.primary-footer div{
+    color: grey;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-container div{
+    display: flex;
+    flex-direction: column;
+}
+.nav-container button{
+    height: 32px;
+    background-color: #0077C5;
+    color: white;
+    border: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.nav-container p{
+    font-family: "Avenir Next LT Pro Regular";
+    font-size: 0.8em;
+    margin: 0px;
+}

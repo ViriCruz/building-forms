@@ -17,12 +17,12 @@ This is a clone of the Intuit official registration form.
 Download the files located on the master branch and, open index.html in your browser.
 
 ## Usage instructions
-This does not contain any behavior, just enjoy the design and, feel free to use inspector tool to see the code.
+This does not contain any behavior, just enjoy the design and, feel free to use the inspector tool to see the code.
 
 ## Potential future features
 
 - Add a font family more accurate to the original.
-- Add nicer icons for the top menu and, the lock icon for password field.
+- Add nicer icons for the top menu and, the lock icon for the password field.
 
 ## How to contribute and participate
 Fork this repo and submit a PR for review and potential merge to the main branch. Feel free to leave feedback. :smile:

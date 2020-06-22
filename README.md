@@ -1,20 +1,45 @@
+# Registration Form
+This is a clone of the Intuit official registration form.
 
-# Building forms Project
+<p> 
+<img src="https://capturefullpage.com/uploads/5ef125bf8000b-converted/github.io.jpg" alt="registration form" />
+</p>
 
-in this project we create a simulation of a form, this is following the structure of [the odin project](https://www.theodinproject.com) with nice results.
+## Live Version
+[Check it out here.](https://viricruz.github.io/building-forms/)
 
-for this project we used
+## Built With ✨
 
-* HTML
-* CSS
+- HTML5
+- CSS3
 
-# Authors
+## Install
+Download the files located on the master branch and, open index.html in your browser.
 
-this project was achived thanks to 
+## Usage instructions
+This does not contain any behavior, just enjoy the design and, feel free to use inspector tool to see the code.
 
-* Gabriela Cruz [Github account](https://github.com/ViriCruz) [https://github.com/ViriCruz](https://github.com/ViriCruz)
-* Carlos Del Real [Github account](https://github.com/carloshdelreal) [https://github.com/carloshdelreal](https://github.com/carloshdelreal) 
+## Potential future features
 
-# The Website
+- Add a font family more accurate to the original.
+- Add nicer icons for the top menu and, the lock icon for password field.
 
-this is the link for the website : [Building Forms https://viricruz.github.io/building-forms/](https://viricruz.github.io/building-forms/)
+## How to contribute and participate
+Fork this repo and submit a PR for review and potential merge to the main branch. Feel free to leave feedback. :smile:
+
+
+## Authors
+
+👨‍💻 **Gabriela Cruz**
+
+- Github [@viricruz](https://github.com/ViriCruz/)
+
+- Email me at viridiana.cruz.olivera@gmail.com
+
+- LinkedIn [@viricruz](https://www.linkedin.com/in/viricruz/)
+
+👨‍💻 **Carlos Del Real**
+
+- Github [@carloshdelreal](https://github.com/carloshDelREal)
+
+- LinkedIn [@carloshdelreal](https://www.linkedin.com/in/carloshDelreal/)
